@@ -42,14 +42,14 @@ public class Problema4 {
 
         System.out.println("El subtotal por pagar es:\n" + valorSubtotal);
 
-        if (numeroDias > 5 && numeroDias < 10) {
+        if (numeroDias > 5 && numeroDias < 11) {
             descuento1 = (valorSubtotal * descuento1) / 100;
             valorTotal1 = (valorSubtotal - descuento1);
             System.out.println("El descuento es del:\n10%");
             System.out.println("El total a pagar es:\n" + valorTotal1);
 
         } else {
-            if (numeroDias > 10 && numeroDias < 15) {
+            if (numeroDias > 10 && numeroDias < 16) {
                 descuento2 = (valorSubtotal * descuento2) / 100;
                 valorTotal2 = (valorSubtotal - descuento2);
                 System.out.println("El descuento es del:\n15%");
